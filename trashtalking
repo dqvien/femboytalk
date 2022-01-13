@@ -18,6 +18,13 @@ local words = {
     'dogged on',
     'no cap but your bad',
     'you fell off',
+    'bozo',
+    'one pumped',
+    '200 pumped',
+    'failed abortion',
+    'adopted',
+    'no life',
+    'fell asleep',
 }
  
 local player = game.Players.LocalPlayer
