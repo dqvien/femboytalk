@@ -1,0 +1,32 @@
+ocal words = {
+    'ur bad',
+    'seed',
+    'im not locking ur just bad',
+    'kid im not locking XDXDXDXD ur just bad',
+    'clown',
+    'sonned',
+    'how did u miss that many shots',
+    'real life trashcan',
+    'ratio',
+    'clowned on',
+    'pounded hardly',
+    'ur mom',
+    'ur horrible at the game',
+    'quit already',
+    'i have betetr aim than you nub',
+    'dropkicked nub',
+    'dogged on',
+    'no cap but your bad',
+    'you fell off',
+}
+ 
+local player = game.Players.LocalPlayer
+local keybind = 'x'
+ 
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+ 
+player:GetMouse().KeyDown:connect(function(key)
+    if key == keybind then
+        event:FireServer(words[math.random(#words)], "All")
+    end
+end)
