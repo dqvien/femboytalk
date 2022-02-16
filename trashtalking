@@ -52,10 +52,6 @@ local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageReque
  
 player:GetMouse().KeyDown:connect(function(key)
     if key == keybind then
-        event:FireServer(words[math.random(#words)], "All"
-        also
-local plr = game:GetService("Players").LocalPlayer
-if plr:IsInGroup("14037182") then
-    else
-    plr:Kick("join the group lmfao")
-end
+        event:FireServer(words[math.random(#words)], "All")
+    end
+end)
