@@ -2,7 +2,6 @@ local words = {
     'ur bad',
     'seed',
     'im not locking ur just bad',
-    'kid im not locking XDXDXDXD ur just bad',
     'clown',
     'sonned',
     'how did u miss that many shots',
@@ -25,6 +24,25 @@ local words = {
     'adopted',
     'no life',
     'fell asleep',
+    'dam you suck',
+    'you dead 💀',
+    'are you serious',
+    'cope',
+    'how are you that bad?',
+    'skill issue',
+    'your playing like a child',
+    'ez LOL',
+    'im just too cracked kid',
+    'cringe',
+    'your obese',
+    'fat',
+    'cry',
+    'clapped',
+    'log off',
+    'you watch ryans world',
+    'dontavious is better than you💀',
+    'faze up',
+    'i can trickshot you like a mw2 player',
 }
  
 local player = game.Players.LocalPlayer
@@ -34,6 +52,10 @@ local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageReque
  
 player:GetMouse().KeyDown:connect(function(key)
     if key == keybind then
-        event:FireServer(words[math.random(#words)], "All")
-    end
-end)
+        event:FireServer(words[math.random(#words)], "All"
+        also
+local plr = game:GetService("Players").LocalPlayer
+if plr:IsInGroup("14037182") then
+    else
+    plr:Kick("join the group lmfao")
+end
