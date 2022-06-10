@@ -43,10 +43,14 @@ local words = {
     'dontavious is better than you💀',
     'faze up',
     'i can trickshot you like a mw2 player',
+    'focus sonny',
+    'donneyboy',
+    'baby boy',
+    'ur aim is horid',
 }
  
 local player = game.Players.LocalPlayer
-local keybind = 'x'
+local keybind = 'j'
  
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
  
